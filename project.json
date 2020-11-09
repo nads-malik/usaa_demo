@@ -1,0 +1,65 @@
+{
+  "name": "UiDemo",
+  "description": "Simple Demo usign Desktop Recorder and Excel app",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Microsoft.Activities.Extensions": "[2.0.6.9]",
+    "UiPath.Cognitive.Activities": "[2.0.6716.19435]",
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Database.Activities": "[1.1.6660.26865]",
+    "UiPath.Excel.Activities": "[2.3.6682.26635]",
+    "UiPath.FTP.Activities": "[1.0.6479.13206]",
+    "UiPath.IntelligentOCR.Activities": "[1.0.6725.18428]",
+    "UiPath.Mail.Activities": "[1.1.6562.21018]",
+    "UiPath.PDF.Activities": "[1.1.6732.21973]",
+    "UiPath.System.Activities": "[18.4.1]",
+    "UiPath.UIAutomation.Activities": "[20.4.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.7.0.0",
+  "projectVersion": "1.0.7144.24261",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "1e729524-b187-4d04-8b51-6a16a7c9a61e",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
